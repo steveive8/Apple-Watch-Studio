@@ -2,4 +2,4 @@
 
 Apple Watch Studio Clone with Banila.js
 
-steveive8.github.io/apple-watch-studio
+https://steveive8.github.io/apple-watch-studio
