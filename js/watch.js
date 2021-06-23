@@ -68,13 +68,13 @@ const texter = () => {
 const sourcer = () =>  {
     if(selections.current == 0){
         return {
-            band: `public/imgs/applewatch/bands/${selections.band.category}/${selections.band.index}.jpeg`,
-            case: `public/imgs/applewatch/cases/${selections.case.category}/${selections.case.index}.png`
+            band: `imgs/applewatch/bands/${selections.band.category}/${selections.band.index}.jpeg`,
+            case: `imgs/applewatch/cases/${selections.case.category}/${selections.case.index}.png`
         }
     } else if(selections.current == 1){
-        return `public/imgs/applewatch/bands/${selections.band.category}/${selections.band.index}.jpeg`;
+        return `imgs/applewatch/bands/${selections.band.category}/${selections.band.index}.jpeg`;
     } else if(selections.current == 2){
-        return `public/imgs/applewatch/cases/${selections.case.category}/${selections.case.index}.png`;
+        return `imgs/applewatch/cases/${selections.case.category}/${selections.case.index}.png`;
     }
 }
 
@@ -103,61 +103,61 @@ const caser = () => {
     </div>
     <div class="image_wrapper" style="padding-left: calc(50vw - 156px)">
         <div class="image_wrapper_wrap">
-            <img class="first_img" src="public/imgs/applewatch/cases/0/1.png" />
+            <img class="first_img" src="imgs/applewatch/cases/0/1.png" />
             <input type="hidden" value="category:0, index: 1" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/cases/0/2.png" />
+            <img src="imgs/applewatch/cases/0/2.png" />
             <input type="hidden" value="category:0, index: 2" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/cases/0/3.png" />
+            <img src="imgs/applewatch/cases/0/3.png" />
             <input type="hidden" value="category:0, index: 3" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/cases/0/4.png" />
+            <img src="imgs/applewatch/cases/0/4.png" />
             <input type="hidden" value="category:0, index: 4" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/cases/0/5.png" />
+            <img src="imgs/applewatch/cases/0/5.png" />
             <input type="hidden" value="category:0, index: 5" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/cases/1/1.png" />
+            <img src="imgs/applewatch/cases/1/1.png" />
             <input type="hidden" value="category:1, index: 1" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/cases/1/2.png" />
+            <img src="imgs/applewatch/cases/1/2.png" />
             <input type="hidden" value="category:1, index: 2" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/cases/1/3.png" />
+            <img src="imgs/applewatch/cases/1/3.png" />
             <input type="hidden" value="category:1, index: 3" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/cases/2/1.png" />
+            <img src="imgs/applewatch/cases/2/1.png" />
             <input type="hidden" value="category:2, index: 1" />
         </div>
     </div>
     <div class="image_wrapper" style="padding-right: calc(50vw - 156px)">
         <div class="image_wrapper_wrap">
-            <img class="last_image" src="public/imgs/applewatch/cases/2/2.png" />
+            <img class="last_image" src="imgs/applewatch/cases/2/2.png" />
             <input type="hidden" value="category:2, index: 2" />
         </div>
     </div>
@@ -257,319 +257,319 @@ const bander = () => {
     </div>
     <div class="image_wrapper" style="padding-left: calc(50vw - 156px)">
         <div class="image_wrapper_wrap">
-            <img class="first_img" src="public/imgs/applewatch/bands/0/1.jpeg" />
+            <img class="first_img" src="imgs/applewatch/bands/0/1.jpeg" />
             <input type="hidden" value="category:0, index: 1" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/0/2.jpeg" />
+            <img src="imgs/applewatch/bands/0/2.jpeg" />
             <input type="hidden" value="category:0, index: 2" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/0/3.jpeg" />
+            <img src="imgs/applewatch/bands/0/3.jpeg" />
             <input type="hidden" value="category:0, index: 3" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/0/4.jpeg" />
+            <img src="imgs/applewatch/bands/0/4.jpeg" />
             <input type="hidden" value="category:0, index: 4" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/0/5.jpeg" />
+            <img src="imgs/applewatch/bands/0/5.jpeg" />
             <input type="hidden" value="category:0, index: 5" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/0/6.jpeg" />
+            <img src="imgs/applewatch/bands/0/6.jpeg" />
             <input type="hidden" value="category:0, index: 6" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/0/7.jpeg" />
+            <img src="imgs/applewatch/bands/0/7.jpeg" />
             <input type="hidden" value="category:0, index: 7" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/0/8.jpeg" />
+            <img src="imgs/applewatch/bands/0/8.jpeg" />
             <input type="hidden" value="category:0, index: 8" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/0/9.jpeg" />
+            <img src="imgs/applewatch/bands/0/9.jpeg" />
             <input type="hidden" value="category:0, index: 9" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/0/10.jpeg" />
+            <img src="imgs/applewatch/bands/0/10.jpeg" />
             <input type="hidden" value="category:0, index: 10" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/1/1.jpeg" />
+            <img src="imgs/applewatch/bands/1/1.jpeg" />
             <input type="hidden" value="category:1, index: 1" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/1/2.jpeg" />
+            <img src="imgs/applewatch/bands/1/2.jpeg" />
             <input type="hidden" value="category:1, index: 2" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/1/3.jpeg" />
+            <img src="imgs/applewatch/bands/1/3.jpeg" />
             <input type="hidden" value="category:1, index: 3" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/1/4.jpeg" />
+            <img src="imgs/applewatch/bands/1/4.jpeg" />
             <input type="hidden" value="category:1, index: 4" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/1/5.jpeg" />
+            <img src="imgs/applewatch/bands/1/5.jpeg" />
             <input type="hidden" value="category:1, index: 5" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/1/6.jpeg" />
+            <img src="imgs/applewatch/bands/1/6.jpeg" />
             <input type="hidden" value="category:1, index: 6" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/1/7.jpeg" />
+            <img src="imgs/applewatch/bands/1/7.jpeg" />
             <input type="hidden" value="category:1, index: 7" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/1/8.jpeg" />
+            <img src="imgs/applewatch/bands/1/8.jpeg" />
             <input type="hidden" value="category:1, index: 8" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/2/1.jpeg" />
+            <img src="imgs/applewatch/bands/2/1.jpeg" />
             <input type="hidden" value="category:2, index: 1" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/2/2.jpeg" />
+            <img src="imgs/applewatch/bands/2/2.jpeg" />
             <input type="hidden" value="category:2, index: 2" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/2/3.jpeg" />
+            <img src="imgs/applewatch/bands/2/3.jpeg" />
             <input type="hidden" value="category:2, index: 3" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/2/4.jpeg" />
+            <img src="imgs/applewatch/bands/2/4.jpeg" />
             <input type="hidden" value="category:2, index: 4" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/2/5.jpeg" />
+            <img src="imgs/applewatch/bands/2/5.jpeg" />
             <input type="hidden" value="category:2, index: 5" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/2/6.jpeg" />
+            <img src="imgs/applewatch/bands/2/6.jpeg" />
             <input type="hidden" value="category:2, index: 6" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/2/7.jpeg" />
+            <img src="imgs/applewatch/bands/2/7.jpeg" />
             <input type="hidden" value="category:2, index: 7" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/2/8.jpeg" />
+            <img src="imgs/applewatch/bands/2/8.jpeg" />
             <input type="hidden" value="category:2, index: 8" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/2/9.jpeg" />
+            <img src="imgs/applewatch/bands/2/9.jpeg" />
             <input type="hidden" value="category:2, index: 9" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/2/10.jpeg" />
+            <img src="imgs/applewatch/bands/2/10.jpeg" />
             <input type="hidden" value="category:2, index: 10" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/2/11.jpeg" />
+            <img src="imgs/applewatch/bands/2/11.jpeg" />
             <input type="hidden" value="category:2, index: 11" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/3/1.jpeg" />
+            <img src="imgs/applewatch/bands/3/1.jpeg" />
             <input type="hidden" value="category:3, index: 1" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/3/2.jpeg" />
+            <img src="imgs/applewatch/bands/3/2.jpeg" />
             <input type="hidden" value="category:3, index: 2" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/3/3.jpeg" />
+            <img src="imgs/applewatch/bands/3/3.jpeg" />
             <input type="hidden" value="category:3, index: 3" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/3/4.jpeg" />
+            <img src="imgs/applewatch/bands/3/4.jpeg" />
             <input type="hidden" value="category:3, index: 4" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/3/5.jpeg" />
+            <img src="imgs/applewatch/bands/3/5.jpeg" />
             <input type="hidden" value="category:3, index: 5" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/3/6.jpeg" />
+            <img src="imgs/applewatch/bands/3/6.jpeg" />
             <input type="hidden" value="category:3, index: 6" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/3/7.jpeg" />
+            <img src="imgs/applewatch/bands/3/7.jpeg" />
             <input type="hidden" value="category:3, index: 7" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/3/8.jpeg" />
+            <img src="imgs/applewatch/bands/3/8.jpeg" />
             <input type="hidden" value="category:3, index: 8" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/3/9.jpeg" />
+            <img src="imgs/applewatch/bands/3/9.jpeg" />
             <input type="hidden" value="category:3, index: 9" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/3/10.jpeg" />
+            <img src="imgs/applewatch/bands/3/10.jpeg" />
             <input type="hidden" value="category:3, index: 10" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/4/1.jpeg" />
+            <img src="imgs/applewatch/bands/4/1.jpeg" />
             <input type="hidden" value="category:4, index: 1" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/4/2.jpeg" />
+            <img src="imgs/applewatch/bands/4/2.jpeg" />
             <input type="hidden" value="category:4, index: 2" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/4/3.jpeg" />
+            <img src="imgs/applewatch/bands/4/3.jpeg" />
             <input type="hidden" value="category:4, index: 3" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/4/4.jpeg" />
+            <img src="imgs/applewatch/bands/4/4.jpeg" />
             <input type="hidden" value="category:4, index: 4" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/4/5.jpeg" />
+            <img src="imgs/applewatch/bands/4/5.jpeg" />
             <input type="hidden" value="category:4, index: 5" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/4/6.jpeg" />
+            <img src="imgs/applewatch/bands/4/6.jpeg" />
             <input type="hidden" value="category:4, index: 6" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/4/7.jpeg" />
+            <img src="imgs/applewatch/bands/4/7.jpeg" />
             <input type="hidden" value="category:4, index: 7" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/4/8.jpeg" />
+            <img src="imgs/applewatch/bands/4/8.jpeg" />
             <input type="hidden" value="category:4, index: 8" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/4/9.jpeg" />
+            <img src="imgs/applewatch/bands/4/9.jpeg" />
             <input type="hidden" value="category:4, index: 9" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/5/1.jpeg" />
+            <img src="imgs/applewatch/bands/5/1.jpeg" />
             <input type="hidden" value="category:5, index: 1" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/5/2.jpeg" />
+            <img src="imgs/applewatch/bands/5/2.jpeg" />
             <input type="hidden" value="category:5, index: 2" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/5/3.jpeg" />
+            <img src="imgs/applewatch/bands/5/3.jpeg" />
             <input type="hidden" value="category:5, index: 3" />
         </div>
     </div>
     <div class="image_wrapper">
         <div class="image_wrapper_wrap">
-            <img src="public/imgs/applewatch/bands/5/4.jpeg" />
+            <img src="imgs/applewatch/bands/5/4.jpeg" />
             <input type="hidden" value="category:5, index: 4" />
         </div>
     </div>
     <div class="image_wrapper" style="padding-right: calc(50vw - 156px)">
         <div class="image_wrapper_wrap">
-            <img class="last_image" src="public/imgs/applewatch/bands/5/5.jpeg" />
+            <img class="last_image" src="imgs/applewatch/bands/5/5.jpeg" />
             <input type="hidden" value="category:5, index: 5" />
         </div>
     </div>
