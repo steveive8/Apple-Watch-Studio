@@ -1,0 +1,236 @@
+body {
+    font-family: 'SF Pro Display';
+    -webkit-font-smoothing: antialiased;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+#header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 21px 24px;
+    position: fixed;
+    box-sizing: border-box;
+    width: 100%;
+}
+#header_middle {
+    padding-left: 16px;
+    padding-top: 5px;
+}
+.arrow {
+    border: solid black;
+    border-width: 0 1.7px 1.7px 0;
+    display: inline-block;
+    padding: 2px;
+    margin-bottom: 3px;
+    margin-left: 4px;
+  }
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+#collectionbtn {
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    cursor: pointer;
+}
+#savebtn {
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    background: #0070c9;
+    color: #fff;
+    padding: 8px 40px 7px;
+    border-radius: 30px;
+    cursor: pointer;
+    z-index: 2;
+    outline: none;
+    border: 0;
+}
+
+
+
+
+
+
+
+
+#scroller {
+    display: flex;
+    position: relative;
+    top: 13vh;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;;
+}
+#images {
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 100%;
+    scroll-snap-type: x mandatory;
+    transition: all 750ms;
+}
+.image_wrapper {
+    scroll-snap-align: center;
+    width: 312px;
+    height: 381px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+.image_wrapper_fixed {
+    width: 0px;
+    height: 0px;
+    top: 190.5px;
+    left: 50%;
+    position: absolute;
+    z-index: 0;
+}
+.image_wrapper_fixed img {
+    width: 375px;
+    height: 375px;
+    object-fit: cover;
+}
+.image_wrapper_wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image_wrapper img {
+    width: 374.9px;
+    height: 374.9px;
+    object-fit: cover;
+}
+.comming_size {
+    padding-left: 50vw;
+    transition: all 550ms;
+}
+.sizer {
+    position: absolute;
+}
+._44 {
+    transform: scale(1.1);
+    z-index: 0;
+    margin-bottom: 20px;
+}
+._44_scale {
+    transform: scale(1.1);
+    margin-bottom: 20px;
+}
+#images::-webkit-scrollbar {
+    display: none;
+}
+#images {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+#description {
+    height: 148px;
+}
+#texts {
+    height: 148px;
+    width: 300px;
+    text-align: center;
+    font-weight: 600;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    display: block;
+    font-size: 14px;
+    line-height: 1.42861;
+    letter-spacing: -.016em;
+    font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+
+
+
+
+
+#selector {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+.selector {
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    background-color: #f2f2f2;
+    padding: 4px 20px;
+    border-radius: 30px;
+    margin: 0 6px;
+    display: inline-block;
+    color: #333;
+    height: 36px;
+    transition: width 500ms,  background-color 300ms;
+    cursor: pointer;
+}
+.selector:hover {
+    background-color: rgb(247,247,247);
+}
+.selector_label {
+    position: absolute;
+    left: -3px;
+}
+.selector_title {
+    position: absolute;
+    left: 25px;
+}
+.selector > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.selector_wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 18px;
+    width: max-content;
+}
+.wrap_selected {
+    display: block;
+}
+.wrap_diselected {
+    display: none;
+}
+.selector_wrap span {
+    cursor: pointer;
+    margin-left: 12.5px;
+}
+#size {
+    width: 60.156px;
+}
+#case {
+    width: 66.672px;
+}
+#band {
+    width: 67.422px;
+}
